@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:onClick="mainMenu"
+        android:text="@string/main_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/click_animals"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/cow"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="55dp"
+        android:onClick="animal"
+        android:tag="cow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cow" />
+
+    <ImageView
+        android:id="@+id/pig"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="animal"
+        android:tag="pig"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pig" />
+
+    <ImageView
+        android:id="@+id/chicken"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:onClick="animal"
+        android:tag="chicken"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cow"
+        app:srcCompat="@drawable/chicken" />
+
+    <ImageView
+        android:id="@+id/horse"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="animal"
+        android:tag="horse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pig"
+        app:srcCompat="@drawable/horse" />
+
+    <ImageView
+        android:id="@+id/goat"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:onClick="animal"
+        android:tag="goat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chicken"
+        app:srcCompat="@drawable/goat" />
+
+    <ImageView
+        android:id="@+id/sheep"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="animal"
+        android:tag="sheep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/horse"
+        app:srcCompat="@drawable/sheep" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

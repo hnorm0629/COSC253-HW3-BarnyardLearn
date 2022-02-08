@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">BarnyardLearn</string>
+    <string name="app_name"><b>Barnyard Learn</b></string>
+    <string name="learn">Learn</string>
+    <string name="quiz">Quiz</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="click_animals">Click an animal to learn more!</string>
+
+    <string name="cow">Cow</string>
+    <string name="pig">Pig</string>
+    <string name="chicken">Chicken</string>
+    <string name="horse">Horse</string>
+    <string name="goat">Goat</string>
+    <string name="sheep">Sheep</string>
 </resources>

@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BarnyardLearn">
         <activity
+            android:name=".SubmitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SheepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HorseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChickenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
