@@ -10,4 +10,5 @@
     <color name="sky_blue">#FF9FD1F9</color>
     <color name="grass_green">#FF639A63</color>
     <color name="barn_red">#FFE9565B</color>
+    <color name="gray">#FF757575</color>
 </resources>

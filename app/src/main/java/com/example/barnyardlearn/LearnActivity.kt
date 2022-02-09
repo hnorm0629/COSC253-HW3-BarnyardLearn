@@ -5,7 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
+/*
+Hannah Norman
+Sophia Petersen
+COSC-253 HW3
+02/09/2022
+ */
+
 class LearnActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_learn)
@@ -13,19 +21,14 @@ class LearnActivity : AppCompatActivity() {
         supportActionBar!!.elevation = 0f   // remove action bar drop shadow
     } // onCreate
 
+    // move to Animal activity, unique to each animal type
     fun animal(view: View) {
-        val intent = when (view.tag){
-            "cow" -> Intent(this, CowActivity::class.java)
-            "pig" -> Intent(this, PigActivity::class.java)
-            "chicken" -> Intent(this, ChickenActivity::class.java)
-            "horse" -> Intent(this, HorseActivity::class.java)
-            "goat" -> Intent(this, GoatActivity::class.java)
-            "sheep" -> Intent(this, SheepActivity::class.java)
-            else -> null
-        } // when
+        val intent = Intent(this, AnimalActivity::class.java)
+        intent.putExtra("Tag", view.tag.toString())
         startActivity(intent)
     } // animal
 
+    // move to Main activity
     fun mainMenu(view: View) {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)

@@ -1,4 +1,5 @@
 <resources>
+    <!-- Miscellaneous -->
     <string name="app_name"><b>Barnyard Learn</b></string>
     <string name="learn">Learn</string>
     <string name="quiz">Quiz</string>
@@ -6,11 +7,30 @@
     <string name="submit">Submit</string>
     <string name="main_menu">Main Menu</string>
     <string name="click_animals">Click an animal to learn more!</string>
+    <string name="thanks"><b>Thanks for playing!</b></string>
+    <string name="score">Score:</string>
+    <string name="q1">Question #1</string>
+    <string name="goat_q1">Which animal has two toes on each hoof?</string>
 
+    <!-- Animals -->
     <string name="cow">Cow</string>
     <string name="pig">Pig</string>
     <string name="chicken">Chicken</string>
     <string name="horse">Horse</string>
     <string name="goat">Goat</string>
     <string name="sheep">Sheep</string>
+
+    <!-- Fun facts -->
+    <string name="cow_fun"><b>Fun Facts: \n</b><i>* Cows have a memory that lasts for
+        about three years! \n* Cows recognize their names!</i></string>
+    <string name="pig_fun"><b>Fun Facts: \n</b><i>* Pigs are the 4th most intelligent
+        animal in  the world! \n* Pigs can run up to 11 miles per hour!</i></string>
+    <string name="chicken_fun"><b>Fun Facts: \n</b><i>* Chickens are the closest living
+        relative of the T-Rex! \n* Some types of chickens can lay blue or green eggs!</i></string>
+    <string name="horse_fun"><b>Fun Facts: \n</b><i>* Horses sleep standing up! \n*
+        Horses have the largest eyes of any land animal!</i></string>
+    <string name="goat_fun"><b>Fun Facts: \n</b><i>* Goats are great swimmers! \n*
+        Goats have rectangular pupils which allow them to see in the dark!</i></string>
+    <string name="sheep_fun"><b>Fun Facts: \n</b><i>* Sheep have two toes on each hoof!\n*
+        An adult female sheep produces enough wool annually to make a suit!</i></string>
 </resources>
