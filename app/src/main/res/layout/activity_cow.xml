@@ -48,5 +48,23 @@
         app:layout_constraintTop_toBottomOf="@id/cow"
         app:srcCompat="@drawable/volume" />
 
+    <TextView
+        android:id="@+id/cowFact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="60dp"
+        android:text="Fun Facts: \n\n * Cows have a memory that lasts for about three years! \n * Cows recognize their names!"
+        android:textColor="@color/sky_blue"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
