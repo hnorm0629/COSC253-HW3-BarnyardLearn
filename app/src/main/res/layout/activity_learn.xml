@@ -100,5 +100,4 @@
         app:layout_constraintTop_toBottomOf="@id/horse"
         app:srcCompat="@drawable/sheep" />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>

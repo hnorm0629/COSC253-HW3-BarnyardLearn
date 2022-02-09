@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PigActivity">
+    tools:context=".AnimalActivity">
 
     <Button
         android:id="@+id/button"
@@ -44,6 +44,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="70dp"
+        android:onClick="noise"
         app:layout_constraintEnd_toEndOf="@id/pig"
         app:layout_constraintTop_toBottomOf="@id/pig"
         app:srcCompat="@drawable/volume" />
@@ -51,19 +52,15 @@
     <TextView
         android:id="@+id/pigFact"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="55dp"
-        android:layout_marginTop="360dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="60dp"
-        android:text="Fun Facts: \n\n * Pigs are the 4th most intelligent animal in  the world! \n * Pigs can run up to 11 miles per hour!"
+        android:layout_marginEnd="55dp"
+        android:text="@string/pig_fun"
         android:textColor="@color/sky_blue"
         android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.54" />
+        app:layout_constraintTop_toBottomOf="@id/name"
+        app:layout_constraintBottom_toTopOf="@id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
